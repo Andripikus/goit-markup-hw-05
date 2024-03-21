@@ -598,6 +598,7 @@ img {
   position: absolute;
   fill: #2e2f42;
   left: 19px;
+  top: 14px;
   top: 50%;
   transform: translateY(-50%);
 }
