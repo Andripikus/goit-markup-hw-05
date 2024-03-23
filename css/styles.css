@@ -534,11 +534,12 @@ img {
 }
 
 .subscribe-text {
+  font-weight: 500;
   font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #fff;
-    margin-bottom: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
 }
 
 .footer-form {
@@ -546,22 +547,22 @@ img {
   gap: 24px;
 }
 
-.footer-email {
+.footer-email-subscribe {
   border: 1px solid #fff;
-    border-radius: 4px;
-    width: 264px;
-    height: 40px;
-    background-color: transparent;
-    font-size: 12px;
-      line-height: 2;
-      letter-spacing: 0.04em;
-      color: #fff;
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-      color: #fff;
-      padding-left: 16px;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  padding-left: 16px;
 }
 
-.footer-email::placeholder {
+.footer-email-subscribe::placeholder {
   color: #fff;
 }
 
@@ -570,21 +571,22 @@ img {
   align-items: center;
   justify-content: center;
   border-radius: 4px;
-    min-width: 165px;
-    height: 40px;
-    font-size: 16px;
-    background-color: #4D5AE5;
-      line-height: 1.5;
-      letter-spacing: 0.04em;
-      text-align: center;
-      color: #fff;
-      cursor: pointer;
-      border: none;
+  min-width: 165px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #4d5ae5;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  border: none;
 }
 
 .subscribe-icon {
-margin-left: 16px;
-fill: #fff;
+  margin-left: 16px;
+  fill: #fff;
 }
 
 .backdrop {
@@ -649,6 +651,7 @@ fill: #fff;
 .modal-close:focus {
   background-color: #404bbf;
   fill: #fff;
+  border: none;
 }
 
 .modal-close:hover .modal-close-icon {
@@ -691,7 +694,7 @@ fill: #fff;
 }
 
 .modal-field {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .modal-label {
@@ -717,6 +720,10 @@ fill: #fff;
   position: relative;
 }
 
+.text-area {
+  margin-bottom: 16px;
+}
+
 .modal-text {
   font-size: 12px;
   line-height: 1.17;
@@ -738,6 +745,10 @@ fill: #fff;
   border-color: #4d5ae5;
 }
 
+.check-wrap {
+  margin-bottom: 24px;
+}
+
 .check-text {
   font-size: 12px;
   line-height: 1.17;
@@ -756,9 +767,6 @@ fill: #fff;
 }
 
 .check-span {
-}
-
-.check-text span {
   width: 16px;
   height: 16px;
   border-radius: 2px;
